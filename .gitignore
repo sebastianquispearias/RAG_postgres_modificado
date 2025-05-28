@@ -156,3 +156,4 @@ test-results/
 *.xlsm
 *.xlsb
 *.xltx
+*.csv

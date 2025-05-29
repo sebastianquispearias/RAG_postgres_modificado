@@ -110,6 +110,7 @@ async def chat_handler(
     chat_request: ChatRequest,
 ):
     try:
+        print(chat_request)
         searcher = PostgresSearcher(
             db_session=database_session,
             openai_embed_client=openai_embed.client,

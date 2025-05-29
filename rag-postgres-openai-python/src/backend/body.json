@@ -1,0 +1,22 @@
+{
+  "messages": [
+    {
+      "role": "user",
+      "type": "message",
+      "content": [
+        {
+          "type": "input_text",
+          "text": "¿Cuál es el vehículo con mayor costo en 2024?"
+        }
+      ]
+    }
+  ],
+  "context": {
+    "overrides": {
+      "top": 3,
+      "temperature": 0.2,
+      "retrieval_mode": "hybrid",
+      "use_advanced_flow": true
+    }
+  }
+}
